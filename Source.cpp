@@ -19,7 +19,7 @@ struct Bar : Foo {
    Bar(const char* msg): Foo(msg){}
    
  
-    //Foof('aa');
+    
     
 };
 
@@ -40,50 +40,4 @@ int main()
    // Foo* f = get_foo("Hello");
    // f->say();
 }
-/**
-* #include <iostream>
 
-using namespace std;
-long DigSum(short int a)
-{
-    int sum = 0;
-    a = abs(a);
-    while (a != 0)
-    {
-        sum += a % 10;
-        a /= 10;
-    }
-    return sum;
-}
-
-bool IsMod(short int n, int m)
-{
-    long sum = DigSum(n);
-    return ((sum % m) == 0);
-
-
-
-}
-int main()
-{
-    int year = 0ui16, mod = 13;
-    cin >> year;
-    do {
-        ++year;
-    } while (!IsMod(year, mod));
-    std::cout << year;
-
-    return 0;
-}
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-
-*/
